@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    font-family: "Sofia", sans-serif;
+}
+
+.nav-items>li {
+    padding: 10px;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.text-font {
+    font-family: cursive;
+}
+
+.footer {
+    min-height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(77, 157, 173, 0.487);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
