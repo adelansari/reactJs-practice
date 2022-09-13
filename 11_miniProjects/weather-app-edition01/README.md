@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <img src="./public/weather-app-ed01.JPG" alt="React Weather App: Edition 01">
 
+<img src="./public/weather-app-expanded.png" alt="React Weather App: Edition 01">
+
 
 ## Quick Start
 
