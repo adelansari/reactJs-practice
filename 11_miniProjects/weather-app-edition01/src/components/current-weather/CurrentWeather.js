@@ -2,7 +2,7 @@ import React from 'react'
 import "./CurrentWeather.css"
 
 const CurrentWeather = ({ data }) => {
-  const WEEK_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  const WEEK_DAYS = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   let today = new Date().toLocaleDateString('en-GB')
   const dayInAWeek = new Date().getDay();
 
@@ -23,7 +23,7 @@ const CurrentWeather = ({ data }) => {
         <p className="temperature">{Math.round(data.main.temp)}°C</p>
         <div className="details">
           <div className="parameter-row">
-            <span className="parameter-label top">{WEEK_DAYS[dayInAWeek-1]} , {today}</span>
+            <span className="parameter-label top">{WEEK_DAYS[dayInAWeek]} , {today}</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Feels like</span>
